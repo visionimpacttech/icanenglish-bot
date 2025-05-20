@@ -1,9 +1,7 @@
-
 from flask import Flask, request
 from twilio.twiml.messaging_response import MessagingResponse
 from user_profile import UserProfile
 from bot_engine import get_response
-
 
 app = Flask(__name__)
 
